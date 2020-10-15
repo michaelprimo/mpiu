@@ -2,7 +2,7 @@ body, html {
   display: grid;
   overflow: hidden;
    /* The image used */
-   background-image: url("wallpaper.jpg");
+   background-image: url("wallpaper.webp");
 
    /* Full height */
    height: 100%;
