@@ -34,8 +34,8 @@ particlesJS('particles-js',
       },
       "image": {
         "src": "logo.webp",
-        "width": 20,
-        "height": 20
+        "width": 30,
+        "height": 30
       }
     },
     "opacity": {
@@ -49,7 +49,7 @@ particlesJS('particles-js',
       }
     },
     "size": {
-      "value": 10,
+      "value": 20,
       "random": true,
       "anim": {
         "enable": false,
