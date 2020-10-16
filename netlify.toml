@@ -115,9 +115,7 @@
     Content-Security-Policy = "frame-ancestors https://www.facebook.com"
 
     # Multi-value headers are expressed with multi-line strings.
-	cache-control = '''
-	max-age=100,
-	must-revalidate'''
+	Cache-Control: public, max-age=604800, immutable
 
     # Basic-Auth allows you to password protect your whole site.
     # This feature may not be available on all plans.
