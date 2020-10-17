@@ -20,30 +20,39 @@
         window.location = "killie/index.html";
         </script><![endif]-->
 
-        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <link href="index.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         
-            <audio autoplay loop>
-                <source src="snow.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        
             <div id="particles-js"></div>
             <div id="parent">
                 <div id="child">
-                    <img class="img-size" src="logo.webp" alt="sometext" />
-                        <p id="nome_agenzia" class="imposta_testo">MPIÙAGENCY</p>
-                        <p id="descrizione_agenzia" class="imposta_testo">Graphic Design</p>
-                        <p id="link_agenzia" class="imposta_testo">...</p>
-                        <p id="link_agenzia" class="imposta_testo"><a href="https://www.instagram.com/misticalinteractive/">Seguici su Instagram</a></p>
-                        <p id="link_agenzia" class="imposta_testo"><a href="mailto:magiclegendstaff@gmail.com">info@mpiuagency.it</a></p>
+                    <!--
+                        <audio controls loop>
+                        <source src="snow.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    -->
+                    <img class="img-size" src="logo.webp" alt="logo" />
+                    <p id="nome_agenzia" class="imposta_testo">MPIÙAGENCY</p>
+                    <p id="descrizione_agenzia" class="imposta_testo">Graphic Design</p>
+                    <p id="link_agenzia" class="imposta_testo">...</p>
+                    <p id="link_agenzia" class="imposta_testo"><a href="https://www.instagram.com/misticalinteractive/">Seguici su Instagram</a></p>
+                    <p id="link_agenzia" class="imposta_testo"><a href="mailto:magiclegendstaff@gmail.com">info@mpiuagency.it</a></p>
                 </div>
             </div>
         
         <script src="particles.min.js"></script>
         
         <script src="app.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+        WebFont.load({
+            google: {
+            families: ['Montserrat']
+            }
+        });
+        </script>
     </body>
 </html>
