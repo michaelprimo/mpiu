@@ -1,1 +1,2 @@
-sitemap: https://lucid-shaw-fb5824.netlify.app/
+User-agent: *
+Allow: /
