@@ -13,7 +13,6 @@ self.addEventListener('install', (event) => {
           '/logo.webp',
           '/particles.min.js',
           '/wallpaper.webp',
-          '/Montserrat.woff2',
           '/app.js',
         ]),
       ),
