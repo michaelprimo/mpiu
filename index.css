@@ -16,15 +16,19 @@ body, html {
   z-index: 1;
 }
 
-.img-size
-  {
-    width: 200px;
-  }
+
   
   @media only screen and (max-width: 767px) {
     .img-size
     {
       max-width: 100px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .img-size
+    {
+      width: 200px;
     }
   }
 
