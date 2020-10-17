@@ -8,7 +8,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
   console.log('particles.js loaded - callback');
 });
 
-
+/* test offline
 particlesJS('particles-js',
   
 {
@@ -123,3 +123,4 @@ particlesJS('particles-js',
 }
 
 );
+*/
