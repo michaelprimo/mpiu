@@ -11,3 +11,8 @@ CACHE MANIFEST
 /particles.min.js
 /sw.js
 /wallpaper.jpg
+
+FALLBACK:
+/ /index.html
+NETWORK:
+*
