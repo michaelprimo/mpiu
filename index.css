@@ -17,8 +17,6 @@ body, html {
   display: table;
   margin: auto;
   text-align: center;
-  z-index: 3;
-  position: fixed;
 }
 
 #child
