@@ -1,5 +1,5 @@
 body, html {
-  display: grid;
+  display: table;
   
   /* The image used */
   
@@ -19,8 +19,10 @@ body, html {
 #parent 
 {
   margin: auto;
-  text-align: center;
   z-index: 3;
+  text-align:center;
+  display:table-cell;
+  vertical-align: middle;
 }
 
 
@@ -103,3 +105,18 @@ body, html {
   src: local('Montserrat Regular'), local('Montserrat-Regular'), url(Montserrat.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
+
+/*
+
+.box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.inner-box{
+  text-align:center;
+  display:table-cell;
+  vertical-align: middle;
+}
+
+*/
