@@ -1,5 +1,5 @@
 body, html {
-  display: table;
+  display: grid;
   
   /* The image used */
   
@@ -19,10 +19,8 @@ body, html {
 #parent 
 {
   margin: auto;
+  text-align: center;
   z-index: 3;
-  text-align:center;
-  display:table-cell;
-  vertical-align: middle;
 }
 
 
