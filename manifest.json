@@ -1,7 +1,7 @@
 {
   "name": "MPiùagency",
   "short_name": "MPiùagency",
-  "description": "The world's best airhorner, and it's free",
+  "description": "L'app della migliore agenzia di design!",
   "icons": [
       {
         "src": "/images/touch/android-launchericon-48-48.png",
@@ -74,6 +74,6 @@
   "start_url": "/?homescreen=1",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#2196F3",
-  "theme_color": "#2196F3"
+  "background_color": "#000000",
+  "theme_color": "#000000"
 }
