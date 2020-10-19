@@ -1,0 +1,18 @@
+CACHE MANIFEST
+/index.html
+/index.css
+/app.js
+/404.html
+/favicon.ico
+/logo.png
+/manifest.webmanifest
+/Montserrat.woff2
+/particles.json
+/particles.min.js
+/sw.js
+/wallpaper.jpg
+
+FALLBACK:
+/ /index.html
+NETWORK:
+*
