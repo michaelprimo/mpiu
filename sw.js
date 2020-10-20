@@ -72,7 +72,6 @@ self.addEventListener("install", function(event) {
            after making HTTP requests for each of them.
         */
         return cache.addAll([
-          `/`,
           `/index.html`,
           `/index.css`,
           `/app.js`,
