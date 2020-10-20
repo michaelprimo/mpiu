@@ -72,14 +72,13 @@ self.addEventListener("install", function(event) {
            after making HTTP requests for each of them.
         */
         return cache.addAll([
-          `/index.html`,
-          `/index.css`,
-          `/app.js`,
-          `/particles-min.js`,
-          `/pwacompat-min.js`,
-          `/logo.png`,
-          `/wallpaper.jpg`,
-          `/snow.mp3`
+          `./index.html`,
+          `./index.css`,
+          `./app.js`,
+          `./particles-min.js`,
+          `./pwacompat-min.js`,
+          `./logo.png`,
+          `./wallpaper.jpg`
         ]);
       })
       .then(function() {
