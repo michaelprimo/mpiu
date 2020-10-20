@@ -1,5 +1,5 @@
-const version = "1.2.1";
-const cacheName = `Mpiuagency-${version}`;
+const version = "1.2.2";
+const cacheName = `Mpiuagency-test-${version}`;
 /*
 self.addEventListener('install', e => {
   e.waitUntil(
