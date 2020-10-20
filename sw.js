@@ -176,7 +176,7 @@ self.addEventListener("activate", function(event) {
      Activation will fail unless the promise is fulfilled.
   */
   console.log('WORKER: activate event in progress.');
-
+  event.waitUntil(self.clients.claim());
   event.waitUntil(
     caches
       /* This method returns a promise which will resolve to an array of available
