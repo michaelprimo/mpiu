@@ -7,13 +7,10 @@ body, html {
    height: 100%;
   margin: 0;
   user-select: none;
-  background: url(background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #A0C3AF;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 
 /*
@@ -50,6 +47,29 @@ body, html {
     {
       max-width: 100px;
     }
+        
+    #left-pink-circle
+    {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      background-color: #ED008C;
+      top: 10%;
+      position: absolute;
+      left: -37%;
+    }
+
+    #right-pink-circle
+    {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      background-color: #ED008C;
+      top: -10%;
+      position: absolute;
+      left: 73%;
+    }
+
   }
 
   @media only screen and (min-width: 768px) {
@@ -57,6 +77,29 @@ body, html {
     {
       width: 200px;
     }
+  
+    #left-pink-circle
+    {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      background-color: #ED008C;
+      top: 10%;
+      position: absolute;
+      left: -7%;
+    }
+
+    #right-pink-circle
+    {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      background-color: #ED008C;
+      top: -10%;
+      position: absolute;
+      left: 93%;
+    }
+
   }
 
   .imposta_testo
@@ -122,4 +165,34 @@ body, html {
   font-display: auto; /* or block, swap, fallback, optional */
   src: local('Montserrat Regular'), local('Montserrat-Regular'), url(Montserrat.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+#left-pink-circle
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: #ED008C;
+  top: 10%;
+  position: absolute;
+  left: -7%;
+}
+
+#right-pink-circle
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: #ED008C;
+  top: -10%;
+  position: absolute;
+  left: 93%;
+}
+
+#traliccio
+{
+  position:fixed;
+  bottom:0px;
+  max-width:100%;
+  height:auto;
 }
