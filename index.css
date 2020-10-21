@@ -56,7 +56,7 @@ body, html {
       background-color: #ED008C;
       top: 10%;
       position: absolute;
-      left: -27%;
+      left: -47%;
     }
 
     #right-pink-circle
@@ -65,9 +65,9 @@ body, html {
       height: 200px;
       border-radius: 100px;
       background-color: #ED008C;
-      top: -10%;
+      top: -18%;
       position: absolute;
-      left: 83%;
+      left: 73%;
     }
 
     #traliccio
@@ -78,40 +78,6 @@ body, html {
   }
 
   @media only screen and (min-width: 768px) {
-    .img-size
-    {
-      width: 200px;
-    }
-  
-    #left-pink-circle
-    {
-      width: 200px;
-      height: 200px;
-      border-radius: 100px;
-      background-color: #ED008C;
-      top: 10%;
-      position: absolute;
-      left: -7%;
-    }
-
-    #right-pink-circle
-    {
-      width: 200px;
-      height: 200px;
-      border-radius: 100px;
-      background-color: #ED008C;
-      top: -10%;
-      position: absolute;
-      left: 93%;
-    }
-
-    #traliccio
-    {
-      height: 10%;
-    }
-  }
-
-  @media only screen and (min-width: 993px) {
     .img-size
     {
       width: 200px;
@@ -141,7 +107,41 @@ body, html {
 
     #traliccio
     {
-      height: 10%;
+      height: 20%;
+    }
+  }
+
+  @media only screen and (min-width: 993px) {
+    .img-size
+    {
+      width: 200px;
+    }
+  
+    #left-pink-circle
+    {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      background-color: #ED008C;
+      top: 10%;
+      position: absolute;
+      left: -7%;
+    }
+
+    #right-pink-circle
+    {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      background-color: #ED008C;
+      top: -15%;
+      position: absolute;
+      left: 93%;
+    }
+
+    #traliccio
+    {
+      height: 35%;
     }
   }
 
