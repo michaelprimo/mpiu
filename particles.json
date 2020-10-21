@@ -21,8 +21,8 @@
       },
       "image": {
         "src": "images/ombrello.png",
-        "width": 20,
-        "height": 20
+        "width": 30,
+        "height": 30
       }
     },
     "opacity": {
@@ -36,7 +36,7 @@
       }
     },
     "size": {
-      "value": 10,
+      "value": 20,
       "random": true,
       "anim": {
         "enable": false,
