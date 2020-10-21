@@ -70,6 +70,11 @@ body, html {
       left: 73%;
     }
 
+    #traliccio
+    {
+      height: 20%;
+    }
+
   }
 
   @media only screen and (min-width: 768px) {
@@ -100,6 +105,10 @@ body, html {
       left: 93%;
     }
 
+    #traliccio
+    {
+      height: 10%;
+    }
   }
 
   .imposta_testo
@@ -194,5 +203,4 @@ body, html {
   position:fixed;
   bottom:0px;
   max-width:100%;
-  height:auto;
 }
