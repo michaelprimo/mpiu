@@ -7,13 +7,24 @@ body, html {
    height: 100%;
   margin: 0;
   user-select: none;
-  background-image: url("backgroundtest.jpg");
+  background-image: url("backgroundtest.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; 
   position: relative;
   z-index: 1;
+}
+
+#bg
+{
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 
 #parent 
