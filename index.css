@@ -119,7 +119,7 @@ body, html {
     color: black;
   }
 
-  #link_agenzia :hover
+  #link_agenzia:hover
   {
     color: white;
   }
@@ -174,4 +174,10 @@ body, html {
 #link_instagram:hover
 {
   color: white !important;
+}
+
+#main_line
+{
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
