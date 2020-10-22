@@ -26,6 +26,7 @@ body, html {
     .img-size
     {
       max-width: 100px;
+      margin-bottom: 20px;
     }
 
     #traliccio
@@ -39,6 +40,7 @@ body, html {
     .img-size
     {
       width: 200px;
+      margin-bottom: 20px;
     }
 
     #traliccio
@@ -51,6 +53,7 @@ body, html {
     .img-size
     {
       width: 200px;
+      margin-bottom: 20px;
     }
   
     #traliccio
@@ -162,7 +165,7 @@ body, html {
   color: #ED008C;
 }
 
-#pink-instagram a:visited
+#pink_instagram a:visited
 {
   text-decoration: none;
   color: #ED008C;
