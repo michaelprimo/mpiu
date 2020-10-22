@@ -10,28 +10,8 @@ body, html {
   background-color: #A0C3AF;
   position: relative;
   z-index: 1;
-  overflow: hidden;
+  overflow-x: hidden;
 }
-
-/*
-  #bg {
-    position: fixed; 
-    top: -50%; 
-    left: -50%; 
-    width: 200%; 
-    height: 200%;
-  }
-  #bg img {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
-    margin: auto; 
-    min-width: 50%;
-    min-height: 50%;
-  }
-*/
 
 #parent 
 {
@@ -47,7 +27,7 @@ body, html {
     {
       max-width: 100px;
     }
-  
+
     #traliccio
     {
       height: 25%;
@@ -73,8 +53,6 @@ body, html {
       width: 200px;
     }
   
-    
-
     #traliccio
     {
       height: 35%;
@@ -89,7 +67,7 @@ body, html {
     background-color: #ED008C;
     top: 10%;
     position: fixed;
-    left: -7%;
+    left: -150px;
   }
 
   #right-pink-circle
@@ -98,9 +76,9 @@ body, html {
     height: 200px;
     border-radius: 100px;
     background-color: #ED008C;
-    top: -15%;
+    top: -100px;
     position: fixed;
-    left: 93%;
+    right: -100px;
   }
 
   .imposta_testo
