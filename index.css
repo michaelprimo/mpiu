@@ -119,7 +119,7 @@ body, html {
     color: black;
   }
 
-  #link_agenzia:hover
+  #link_agenzia :hover
   {
     color: white;
   }
