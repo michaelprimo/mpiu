@@ -67,6 +67,7 @@ body, html {
     background-color: #ED008C;
     top: 10%;
     position: fixed;
+    z-index: 3;
     left: -150px;
   }
 
@@ -78,13 +79,16 @@ body, html {
     background-color: #ED008C;
     top: -100px;
     position: fixed;
+    z-index: 3;
     right: -100px;
   }
 
   .imposta_testo
   {
     font-family: 'Montserrat', sans-serif;
-    color: #d5d3cd;
+    color: black;
+    font-weight: lighter;
+    letter-spacing: 3px;
   }
 
   #nome_agenzia
@@ -94,7 +98,7 @@ body, html {
     margin: 0;
   }
 
-  #descrizione_agenzia
+  .descrizione_agenzia
   {
     font-size: 20px;
     margin: 0;
@@ -109,7 +113,7 @@ body, html {
   #link_agenzia a
   {
     text-decoration: none;
-    color: #d5d3cd;
+    color: black;
   }
 
   #link_agenzia :hover
@@ -151,4 +155,15 @@ body, html {
   position:fixed;
   bottom:0px;
   max-width:100%;
+}
+
+#pink-instagram
+{
+  color: #ED008C;
+}
+
+#pink-instagram a:visited
+{
+  text-decoration: none;
+  color: #ED008C;
 }
