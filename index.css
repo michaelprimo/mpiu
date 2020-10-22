@@ -121,7 +121,7 @@ body, html {
 
   #link_agenzia :hover
   {
-    color: white;
+    color: white !important;
   }
 
 #particles-js canvas {
@@ -160,12 +160,12 @@ body, html {
   max-width:100%;
 }
 
-#pink_instagram
+#pink_instagram a:link
 {
   color: #ED008C;
 }
 
-#pink_instagram a:visited
+#link_instagram
 {
   text-decoration: none;
   color: #ED008C;
