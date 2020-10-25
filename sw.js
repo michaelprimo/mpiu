@@ -17,7 +17,7 @@
  *
  */
 
-const version = "1.0.0";
+const version = "1.0.1";
 const cacheName = `Mpiuagency-${version}`;
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -29,10 +29,10 @@ self.addEventListener('install', e => {
         `/scripts/comlink.global.js`,
         '/images/ombrello.png',
         '/logo.png',
-        `/scripts/messagechanneladapter.global.js`,
         `/scripts/pwacompat.min.js`,
         '/traliccio.png',
         '/particles.min.js',
+        '/particles.json',
         '/app.js'
       ])
           .then(() => self.skipWaiting());
