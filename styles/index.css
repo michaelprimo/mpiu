@@ -1,5 +1,4 @@
 body, html {
-  display: grid;
   
   /* The image used */
   
@@ -15,12 +14,28 @@ body, html {
 
 #parent 
 {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
   margin: auto;
   text-align: center;
   z-index: 3;
 }
 
+#child {
+  display: table-cell;
+  vertical-align: middle;
+}
 
+#center-all-browsers {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  /*whatever width you want*/
+}
   
   @media only screen and (max-width: 767px) {
     .img-size
