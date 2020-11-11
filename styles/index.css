@@ -166,7 +166,7 @@ body, html {
     background-color: #ED008C;
     top: 10%;
     position: fixed;
-    z-index: 3;
+    z-index: 1;
     left: -150px;
   }
 
