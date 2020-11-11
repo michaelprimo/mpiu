@@ -40,25 +40,46 @@
 
   </head>
   <body>
-    <div id="left-pink-circle"></div>
-    <div id="right-pink-circle"></div>
-   
-    <img src="traliccio.png" id="traliccio" alt="">
+
       <div id="particles-js"></div>
+      
       <div id="parent">
           <div id="child">
-             
+            <div id="center-all-browsers">
+              <div id="left-pink-circle"></div>
+              <div id="right-pink-circle"></div>
+              
               <img class="img-size" src="logo.png" alt="logo" />
-              <p class="imposta_testo descrizione_agenzia">404!</p>
+              <p class="imposta_testo descrizione_agenzia">SOCIAL MEDIA</p>
+              <p class="imposta_testo descrizione_agenzia">GRAPHIC</p>
+              <p class="imposta_testo descrizione_agenzia">WEB & MARKETING</p>
               <svg id="main_line" width="300" height="5">
                   <line x1="0" y1="0" y2="0" x2="300" style="stroke:#000; stroke-width:5"></line>
               </svg>
-              <p id="link_agenzia pink_instagram" class="imposta_testo"><a id="link_instagram" href="https://lucid-shaw-fb5824.netlify.app/">RITORNA NELLA HOME</a></p>
-              
+              <p id="link_agenzia" class="imposta_testo"><a href="mailto:mpiuagency@gmail.com">MPIUAGENCY@GMAIL.COM</a></p>
+              <p id="link_agenzia pink_instagram" class="imposta_testo"><a id="link_instagram" href="https://www.instagram.com/misticalinteractive/">INSTAGRAM</a></p>
+            </div> 
           </div>
       </div>
-  
+      <div id="center_svg">
+        <img src="traliccio.svg" id="traliccio" alt="">
+      </div>
+      
     <script src="particles.min.js"></script>
     <script src="app.js"></script>
+    <script src=/scripts/comlink.global.js></script>
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+          .then(function(registration) {
+                console.log('Service Worker Registered');
+          });
+
+        navigator.serviceWorker.ready.then(function(registration) {
+           console.log('Service Worker Ready');
+        });
+      }
+
+    </script>
   </body>
 </html>
