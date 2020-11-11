@@ -17,7 +17,7 @@
  *
  */
 
-const version = "1.0.1";
+const version = "1.0.2";
 const cacheName = `Mpiuagency-${version}`;
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -30,7 +30,7 @@ self.addEventListener('install', e => {
         '/images/ombrello.png',
         '/logo.png',
         `/scripts/pwacompat.min.js`,
-        '/traliccio.png',
+        '/traliccio.svg',
         '/particles.min.js',
         '/particles.json',
         '/app.js'
