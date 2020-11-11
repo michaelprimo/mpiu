@@ -156,15 +156,6 @@ body, html {
     }
   }
 
-  @media only screen and (max-width: 650px) 
-  {
-    #traliccio
-    {
-      height: 10%;
-    }
-  }
-
-
 
 
   #left-pink-circle
@@ -245,18 +236,6 @@ body, html {
   src: local('Montserrat Regular'), local('Montserrat-Regular'), url(Montserrat.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
-/*
-#traliccio
-{
-  position: fixed;
-  bottom: -30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  z-index: 1;
-}
-*/
 
 #traliccio
 {
@@ -265,8 +244,8 @@ body, html {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  z-index: 3;
-  bottom: -30px;
+  z-index: 1;
+  bottom: 0px;
 }
 
 #pink_instagram
