@@ -77,7 +77,8 @@ body, html {
 
     #traliccio
     {
-      height: 20%;
+      height: 25%;
+      
     }
     
     .descrizione_agenzia
@@ -109,7 +110,7 @@ body, html {
   
     #traliccio
     {
-      height: 35%;
+      height: 30%;
     }
     
     .descrizione_agenzia
@@ -130,6 +131,41 @@ body, html {
       font-size: 16px;
     }
   }
+
+  @media only screen and (max-width: 1300px) 
+  {
+    #traliccio
+    {
+      height: 25%;
+    }
+  }
+
+  @media only screen and (max-width: 1050px) 
+  {
+    #traliccio
+    {
+      height: 20%;
+    }
+  }
+
+  @media only screen and (max-width: 850px) 
+  {
+    #traliccio
+    {
+      height: 15%;
+    }
+  }
+
+  @media only screen and (max-width: 650px) 
+  {
+    #traliccio
+    {
+      height: 10%;
+    }
+  }
+
+
+
 
   #left-pink-circle
   {
@@ -209,12 +245,28 @@ body, html {
   src: local('Montserrat Regular'), local('Montserrat-Regular'), url(Montserrat.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
+/*
+#traliccio
+{
+  position: fixed;
+  bottom: -30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  z-index: 1;
+}
+*/
 
 #traliccio
 {
-  position:fixed;
-  bottom:0px;
-  max-width:100%;
+  position: fixed;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  z-index: 3;
+  bottom: -30px;
 }
 
 #pink_instagram
@@ -231,4 +283,9 @@ body, html {
 {
   margin-top: 20px;
   margin-bottom: 4px;
+}
+
+#center_svg
+{
+  text-align: center;
 }
