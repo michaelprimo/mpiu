@@ -15,7 +15,7 @@ body, html {
 #parent 
 {
   display: table;
-  position: absolute;
+  position: fixed;
   top: 12.5%;
   left: 0;
   height: 100%;
