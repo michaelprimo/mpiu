@@ -17,7 +17,7 @@
  *
  */
 
-const version = "1.0.6";
+const version = "1.0.6.1";
 const cacheName = `Mpiuagency-${version}`;
 self.addEventListener('install', e => {
   e.waitUntil(
