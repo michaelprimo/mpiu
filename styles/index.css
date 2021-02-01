@@ -10,6 +10,10 @@ body, html {
   position: relative;
   z-index: 1;
   overflow-x: hidden;
+  background-image: url("sfondo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #parent 
