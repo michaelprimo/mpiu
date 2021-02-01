@@ -6,7 +6,7 @@ body, html {
    height: 100%;
   margin: 0;
   user-select: none;
-  background-color: #A0C3AF;
+  background-color: #fff;
   position: relative;
   z-index: 1;
   overflow-x: hidden;
